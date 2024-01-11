@@ -1,0 +1,7 @@
+.test {
+    background: #FFFFFF url("https://cplusplus.com/v3.3.4/bg.png") no-repeat 0 0;
+    background-position: -128px 0px;
+    width: 16px;
+    height: 15px;
+    display: inline-block;
+}
