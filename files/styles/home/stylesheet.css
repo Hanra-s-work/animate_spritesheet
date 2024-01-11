@@ -5,3 +5,10 @@
     height: 15px;
     display: inline-block;
 }
+
+.my_loader {
+    background-position: 0px 0px;
+    width: 16px;
+    height: 15px;
+    display: inline-block;
+}
