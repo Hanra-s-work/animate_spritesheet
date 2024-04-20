@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <link rel="apple-touch-icon" sizes="57x57" href="./files/images/icons/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="./files/images/icons/apple-icon-60x60.png">
@@ -10,7 +11,7 @@
         <link rel="apple-touch-icon" sizes="144x144" href="./files/images/icons/apple-icon-144x144.png">
         <link rel="apple-touch-icon" sizes="152x152" href="./files/images/icons/apple-icon-152x152.png">
         <link rel="apple-touch-icon" sizes="180x180" href="./files/images/icons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="./files/images/icons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="./files/images/icons/android-icon-192x192.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./files/images/icons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="96x96" href="./files/images/icons/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./files/images/icons/favicon-16x16.png">
@@ -18,16 +19,18 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="./files/images/icons/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" type="text/css" href="./files/styles/home/stylesheet.css"/>
+        <link rel="stylesheet" type="text/css" href="./files/styles/home/stylesheet.css" />
     </head>
+
     <body>
         <span class="test">
             <h3>Hi</h3>
         </span>
         <h1>Animation in action</h1>
-        <p><img class="my_loader" src="./files/images/sample_animation/loading_anti_clockwise.png"/></p>
+        <p><img class="my_loader" id="loader_id" /></p>
         <script type="text/JavaScript" src="./files/scripts/home/script.js"></script>
-        <script type="text/JavaScript">animate();</script>
+        <script type="text/JavaScript">animate("loader_id", 49, 49, 18, 0, 0.1);</script>
+        <p>Access the builder: <a href="./files/sub_pages/builder">here</a>.</p>
     </body>
+
 </html>
-    
